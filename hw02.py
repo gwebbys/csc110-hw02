@@ -4,7 +4,9 @@ def read_two_ints():
     # ADD a Docstring for this function
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
-    return 1, 2
+    x = int(input("give me x: "))
+    y = int(input("give me y: "))
+    return x,y
 
 # Task 2.1:
 #  Complete the function "compute_multadd" below:
