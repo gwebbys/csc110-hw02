@@ -2,6 +2,7 @@
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
     # ADD a Docstring for this function
+    """Get two number inputs from the user, and then return them back to the function, where it will end""" 
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
     x = int(input("give me x: "))
@@ -28,6 +29,7 @@ def main ():
     # ADD a Docstring for this function
     # Task 1.2:
     #  Add one line below to call read_two_ints (note that it returns two values)
+    x, y =read_two_ints()
     #  the call should provide no arguments
     #  store the returned values into two variables: x and y
 
